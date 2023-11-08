@@ -10,5 +10,15 @@ public class Example2_O_of_n_Square {
                 System.out.println(i+" "+j);
             }
         }
+
+        //Now for diifrent input a and n
+        int a=10,b=20;
+        for(int i=0;i<a;i++)
+        {
+            for (int j=0;j<b;j++){
+                System.out.println(i+" "+j);
+            }
+        }
+        // now its O(a*b)
     }
 }

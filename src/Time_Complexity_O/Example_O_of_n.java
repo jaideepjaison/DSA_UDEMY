@@ -21,5 +21,19 @@ public class Example_O_of_n {
             System.out.println("J :"+j);
         }
         // END
-    }
+
+        // Diffeerent type of input
+        int a=10,b=20;
+
+        for(int i=0;i<a;i++)
+        {
+            System.out.println("I :"+i);
+        }
+        for(int j=0;j<b;j++)
+        {
+            System.out.println("J :"+j);
+        }
+
+        // Now the result of both for loop is diffrent,so O(a) + O(b) = O(a+b).
+        }
 }
